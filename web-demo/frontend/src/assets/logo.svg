@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="90" fill="#FFFFFF" stroke="#409EFF" stroke-width="4"/>
+  
+  <!-- 图标主体 -->
+  <g transform="translate(40, 40)">
+    <!-- APNG图标表示 -->
+    <rect x="0" y="0" width="40" height="40" rx="5" fill="#409EFF" />
+    <rect x="50" y="0" width="40" height="40" rx="5" fill="#409EFF" opacity="0.8" />
+    <rect x="100" y="0" width="40" height="40" rx="5" fill="#409EFF" opacity="0.6" />
+    
+    <!-- WebP图标表示 -->
+    <rect x="0" y="50" width="40" height="40" rx="5" fill="#67C23A" />
+    <rect x="50" y="50" width="40" height="40" rx="5" fill="#67C23A" opacity="0.8" />
+    <rect x="100" y="50" width="40" height="40" rx="5" fill="#67C23A" opacity="0.6" />
+    
+    <!-- 转换箭头 -->
+    <path d="M20 100 L120 100 L100 80 M100 120 L120 100" stroke="#303133" stroke-width="4" fill="none" />
+  </g>
+  
+  <!-- 文字 -->
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#303133">iSparta Web</text>
+</svg>
